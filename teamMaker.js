@@ -79,3 +79,5 @@ function makeTeams() {
   if (people.length != 0)
     pickMap();
 }
+
+// ssh works
