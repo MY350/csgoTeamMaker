@@ -1,0 +1,32 @@
+h1[id=CT] {
+  color: blue;
+}
+
+h1[id=T] {
+  color: orange;
+}
+
+h1[id=maph1] {
+  color:chartreuse;
+}
+
+* {
+  font-family: sans-serif;
+  color: wheat;
+}
+
+body {
+  background-color: black;
+}
+
+button {
+  background-color: green;
+}
+
+input {
+  background-color: blueviolet;
+}
+
+label {
+  color: rgb(255, 222, 8);
+}

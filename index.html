@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+	  <script src="teamMaker.js"></script>
+    <input id="sigma" type="text" required minlength="1" size="20"/>
+    <button onclick="getName()">Submit</button>
+    <button onclick='makeTeams()'>Make Teams</button>
+    <button onclick="pickMap()">Pick Map</button>
+    <button onclick="clearScreen()">Clear</button>
+    <p id="players"></p>
+    <h1 id="CT">CT:</h1>
+    <p id="CT_text"></p>
+    <h1 id="T">T:</h1>
+    <p id="T_text"></p>
+    <h1 id="maph1">Map:</h1>
+    <p id="map"></p>
+
+    <label><input type="checkbox" id="0map" name="Dust 2" checked="">Dust 2</label>
+    <label><input type="checkbox" id="1map" name="Mirage" checked="">Mirage</label>
+    <label><input type="checkbox" id="2map" name="Vertigo" checked="">Vertigo</label>
+    <label><input type="checkbox" id="3map" name="Ancient" checked="">Ancient</label>
+    <label><input type="checkbox" id="4map" name="Inferno" checked="">Inferno</label>
+    <label><input type="checkbox" id="5map" name="Nuke" checked="">Nuke</label>
+    <label><input type="checkbox" id="6map" name="Anubis" checked="">Anubis</label>
+    <label><input type="checkbox" id="7map" name="Overpass" checked="">Overpass</label>
+    <label><input type="checkbox" id="8map" name="Thera" checked="">Thera</label>
+  </body>
+</html>
